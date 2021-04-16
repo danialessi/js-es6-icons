@@ -103,20 +103,12 @@ const colors = [
     'purple'
 ];
 
-// Milestone 1
-// Partendo dalla seguente struttura dati , 
+
+
+
+// Milestone 1 - Partendo dalla seguente struttura dati , 
 // mostriamo in pagina tutte le icone disponibili come da layout.
 
-// Milestone 2
-// Coloriamo le icone per tipo
-
-// Milestone 3
-// Creiamo una select con i tipi di icone e usiamola per filtrare le icone
-
-
-
-
-// 1
 // Ho bisogno del container su cui stampare le icone e l'array, da passare come argomenti alla funzione
 // usando jQuery ottengo il container su cui stampare le icone
     const containerIcons = $('.container-icons');
@@ -144,5 +136,25 @@ const colors = [
         });
     }
     
-// 2
-// creo un array di ogni colore 
+// Milestone 2 - Coloriamo le icone per tipo
+    // mi serve un array di ogni colore (dichiarata sopra)
+    // mi serve un array di tipi
+
+    // richiamo la funzione 
+    iconsTypes(icons);
+    
+    // funzione per array di tipi 
+    function iconsTypes (iconsArray) {
+        const arrayTypes = [];
+
+        // eseguo un ciclo per selezionare ogni elemento e isolare il suo type
+        iconsArray.forEach(( element ) => {
+            const type = element.type;
+            console.log(type);
+
+        });
+    }
+
+
+
+// Milestone 3 - Creiamo una select con i tipi di icone e usiamola per filtrare le icone
