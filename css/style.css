@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER  */
+.container {
+    margin: 0 20px;
+    display: flex;
+    padding: 20px;
+}
+
+.container img {
+    width: 20%;
+}
+/* END HEADER  */
+
+/* MAIN  */
+/* select  */
+.blue-background {
+    background-color: blue;
+}
+
+.select {
+    margin: auto;
+    color: white;
+}
+/* end select  */
+/* icons  */
+.grey-background {
+    background-color: lightgrey;
+}
+
+.container-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.icons {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px 40px;
+    margin: 10px;
+    text-align: center;
+}
+
+.fas {
+    font-size: 50px;
+}
+/* end icons */
+/* END MAIN  */
