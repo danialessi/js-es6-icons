@@ -139,38 +139,10 @@ const colors = [
             <div>${name}</div>
         </div>
         `
-        // appendo il template al container HTML
+        // appendo il template literal al container HTML
         container.append(iconHTML);
         });
     }
     
-
-
-
-// APPUNTI 
-// 2 - colorare le icone per tipo
-
-// creare array con i colori con una funzione 
-    // arrayColori --> array di stringhe, ogni stringa è un colore css 
-    
-    // funzione nomefunzione ( arrayIcons, arrayColori) {
-
-        // per creare un uovo array uso map
-            // creo una copia dell array originale con spread
-            // mi serve l'indice di ogni tipo di icone 
-
-            // alla copia aggiungo .color = indice degli elementi dell'array colori
-            // return copia 
-    // }
-
-// array con solo i tipi (altra funzione)
-// return: array di stringhe, ogni stringa è un tipo di icona
-    // mi serve array originale
-    // ciclo for each su array originale dove scorro gli elementi
-        // salvo in una const gli element.type
-
-// 3
-// popolare la select per filtrare le icone 
-// mi servono:
-    // array di tipi di icone ---> array di stringhe ogni stringa è un tipo
-    // oggetto jQuery che rappresenti la select a cui aggiungere le options 
+// 2
+// creo un array di ogni colore 
